@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS college;
+USE college;
+
+CREATE TABLE student1(
+	rollno INT PRIMARY KEY, 
+    name VARCHAR(50)
+);
+
+SELECT * FROM student1;
+
+CREATE TABLE temp1(
+	id INT UNIQUE
+);
+
+INSERT INTO temp1 VALUES(101);
+INSERT INTO temp1 VALUES(101);
+
+SELECT * FROM temp1;
